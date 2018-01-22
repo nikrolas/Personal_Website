@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+    <html lang="en-ca">
+        <head>
+            <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Nicholas Chan</title>
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/bootstrap-social.css">
+            <link rel="stylesheet" href="css/font-awesome.min.css">
+
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="ICON" href="img/Me_Icon.ico" type="image/ico">
+            <link rel="stylesheet" type="text/css" href="css/component.css" />
+            <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+            <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+            <script src="js/modernizr.custom.js"></script>
+        </head>
+        <body>
+    <!-- NAVIGATION BAR-->
+    <div id="warning-message">
+        this website is only viewable in landscape mode
+    </div>
+    <div id = "wrapper">
+            <header id ="navigation" class="navbar-fixed-top animated-header">
+                <nav class = "navbar navbar-default navbar-fixed-top">
+                    <div class = "container-fluid">
+                        <div class = "navbar-header">
+                            <!-- logo --> 
+                            <a id="navbrand" class = "navbar-brand" href = "#about">
+                                <img src="img/Me_Image_Large.png" alt="A Picture Of Me" height="150">
+                            </a>
+                        </div>
+                        <div class = "navbar-text">
+                            <h1> Nicholas Chan </h1>
+                            <h2> Programmer In Development </h2>
+                        </div>
+                        <div class = "navbar-directory">
+                            <ul id="nav" class="nav navbar-nav menu navb navbar-right">
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class = "navbar-contact">
+                            <a class = "btn btn-lg btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nicholas-chan-a361a8b6">
+                                <span class = "fa fa-linkedin"></span>
+                            </a>
+                            <a class = "btn btn-lg btn-social-icon btn-github" href="https://github.com/nikrolas">
+                                <span class = "fa fa-github"></span>
+                            </a>
+                            <a class = "btn btn-lg btn-social-icon btn-facebook" href="https://www.facebook.com/nicky.chan.125">
+                                <span class = "fa fa-facebook"></span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div id = "page-wrap">        
+    <!-- ABOUT CLASS-->
+
+                <div id = "about" class="panel">
+                    <div class = "container-fluid">
+                        <h1>About Me.</h1>
+                            <div class ="row">
+                                <div class = "col-md-5"> 
+                                    <div id="fc-slideshow" class="fc-slideshow">
+                                       <ul class="fc-slides">
+                                        <li><img src="img/me_toronto.JPG" />  <h3>Toronto <br> 2016</h3></li>
+                                          <li><img src="img/me_google1.JPG" /><h3>Google <br> 2015</h3></li>
+                                          <li><img src="img/me_1.jpg"/><h3> Tough Mudder 2013</h3></li>
+                                          <li><img src="img/me_2.jpg" /><h3>Japan <br>2015</h3></li>
+                                          <li><img src="img/me_bainbridge.JPG" /><h3>Washington <br> 2015</h3></li>
+                                          <li><img src="img/me_china.JPG" /><h3>China <br> 2014</h3></li>
+                                          <li><img src="img/me_minna2.JPG" /><h3>Minneapolis <br> 2015</h3></li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class = "col-md-7"> 
+                                    <div class = "text">
+                                        <p> My name is Nicholas but <u><i><b>everyone</b></i></u> calls me Nicky. This is my online portfolio of my work and experiences. I am passionate about the creative process and creating something that is distinctly myself. It is my dream that I can someday create something that can transcend its medium and reach people on a deeply personal level.
+                                            <br/>
+                                            Always learning and in the pursuit of happiness.
+                                            <br/>
+                                            - Nicky
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- PROJECT CLASS-->
+
+                <div id = "projects" class="panel">
+                    <div class = "container-fluid">
+                        <h1>Projects.</h1> 
+                        <div class = "row">
+                            <div class = "col-md-4">
+                                <div class = "text">
+                                    <b>Personal</b>
+                                </div>
+                                <div class = "col-md-12">
+                                    <button id="vrsub" style = "color:white;" data-toggle="modal" data-target="#vrsub_popup"> VR Submarine </button>
+                                </div>
+                                <div class = "col-md-12">
+                                    <button id="sudoku" style = "color:black;" data-toggle="modal" data-target="#sudoku_popup"> Sudoku Wars</button>
+                                </div>
+                            </div>
+                            <div class = "col-md-4">
+                                <div class = "text">
+                                    <b>School</b>
+                                </div>
+                                <div class = "col-md-12">             
+                                    <button id= "mindthegap" style ="color:blue" data-toggle="modal" data-target="#mindthegap_popup">Mind The Gap</button>
+                                </div>
+                                <div class = "col-md-12">
+                                    <button id = "clinic" style = "color:black;" data-toggle="modal" data-target="#clinic_popup"> Walk In Clinic</button>
+                                </div>
+                                <div class = "col-md-12">
+                                    <button style = "background:blue; color: yellow" data-toggle="modal" data-target="#ubcpair_popup"> UBC Pair</button>
+                                </div>
+                            </div>
+                            <div class = "col-md-4">
+                                <div class = "text">
+                                    <b>Work</b>
+                                </div>
+                                <div class = "col-md-12">             
+                                    <button style = "background:red; color: yellow" data-toggle="modal" data-target="#cibc_popup"> CIBC OAO </button>
+                                </div>
+                                <div class = "col-md-12">
+                                    <button style = "background:white; color: red" data-toggle="modal" data-target="#canada_popup"> EGD Booking </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modals for projects-->
+                    <div id="vrsub_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Virtual Reality Submarine with Academy of VR</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Class: <a href="http://academyofvr.com/">Academy of VR - VR Development with Unity</a></p>
+                                    <p>Language: C#</p>
+                                    <p>Over the course of a 2 day intensive workshop, we developed our own Submarine VR game on Android using the Unity engine.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="mindthegap_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Mind The Gap Android Application</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Class: CPSC 210 - Software Construction</p>
+                                    <p>Language: Java</p>
+                                    <p>Followed existing code documentation for implementation of functions for Android application. Displayed London Underground transit schedule by utilizing London transit API relative to GPS location</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="ubcpair_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">UBC Pair Web Application</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Class: CPSC 310 - Introduction to Software Engineering</p>
+                                    <p>Language: Typescript, Javascript, HTML</p>
+                                    <p>Link: <a href="https://github.com/nikrolas/CPSC310-UBC-Pair-Fullstack-Project">https://github.com/nikrolas/CPSC310-UBC-Pair-Fullstack-Project</a></p>
+                                    <p>Pair programmed with a partner to construct an API using UBC Pair information and utilized it for specific search queries (grades, class sizes, etc) for all UBC courses</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="clinic_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Walk In Clinic Java Application</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Class: CPSC 304 - Introduction to Relational Databases</p>
+                                    <p>Language: Java, SQL</p>
+                                    <p>Link:<a href="https://github.com/nikrolas/CPSC304-Walk-In-Clinic-DB"> https://github.com/nikrolas/CPSC304-Walk-In-Clinic-DB</a></p>
+
+                                    <p>Worked in a group of 4 to create a walk-in clinic patient registration/scheduler, utilizing Oracle database to store and populate patient and user information. Application was capable of password login, patient registration, schedule appointments, and medical history</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="cibc_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">CIBC - Test Analyst</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Date: September 2016 - December 2016</p>
+                                    <p>Link:<a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards.html"> https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards.html</a></p>
+                                    <p>Logged defects on HP ALM for online credit card application and worked closely with developers to identify potential bugs in application.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="canada_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Government of Canada - EGD Booking</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Date: September 2017 - December 2017</p>
+                                    <p>Link:<a href="https://cse-egd.tpsgc-pwgsc.gc.ca/Accueil-Home?lang=eng">https://cse-egd.tpsgc-pwgsc.gc.ca/Accueil-Home?lang=eng</a></p>
+                                    <p>Language: C#, SQL, HTML, CSS, Javascript</p>
+                                    <p>Refactored an existing project for EGD Booking in ASP.NET Core to ASP.NET 4.6. Along the way, I found and fixed various front and backend bugs reported on Jira.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="sudoku_popup" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Sudoku Wars - UI Design</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Date: September 2017</p>
+                                    <p>Link:<a href="https://play.google.com/store/apps/details?id=com.ubccpsc.android.sudokuonline"> https://play.google.com/store/apps/details?id=com.ubccpsc.android.sudokuonline</a></p>
+                                    <p>Language: Java</p>
+                                    <p>Created an unlockable trophy system on completion of a certain difficulty. Each unlockable would allow the user to change the color scheme of the overall application.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End of Modals -->
+                </div>
+
+    <!-- EXPERIENCE CLASS-->
+
+                <div id = "experience" class="panel">
+                    <h1>Experience.</h1>   
+                    <section class="cd-horizontal-timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+                        <li><a href="#0" data-date="01/05/2015" class="selected">Jun 2011</a></li>
+                        <li><a href="#0" data-date="04/05/2015">Apr 2015</a></li>
+                        <li><a href="#0" data-date="06/05/2015">Sept 2015</a></li>
+                        <li><a href="#0" data-date="07/05/2015">Sept 2015</a></li>
+                        <li><a href="#0" data-date="09/05/2015">Sept 2016</a></li>
+                        <li><a href="#0" data-date="10/05/2015">Sept 2017</a></li>
+                    </ol>
+
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+
+        <div class="events-content">
+            <ol>
+                <li class="selected" data-date="01/05/2015">
+                    <h2>Dogwood Diploma(GED)</h2>
+                    <a href="http://www.stgeorges.bc.ca/">
+                    <img src="img/stgeorges_logo.png" alt="STG" height= 140px>
+                    </a>
+                    <em>Received: June 2011</em>
+                    <p>	 I attended both elementary and high school at <b>St.George's School</b> in Vancouver, British Columbia.
+                    </p>
+                </li>
+                <li data-date="04/05/2015">
+                    <h2>Bachelor of Science - Integrated Science</h2>
+                    <a href="https://intsci.ubc.ca/">
+                    <img src="img/logoUBC.gif" alt="UBC" height= 140px>
+                    </a>    
+                    <em>Receieved: April 2015</em>
+                    <p> After studying for 4 years and working in various research labs at the University of British Columbia, I graduated with a <b> Bachelor in Integrated Science</b>, concentrating in Cognition and Neuroscience.
+                    </p>
+                </li>
+
+                <li data-date="06/05/2015">
+                    <h2>Medical Assistant</h2>
+                    <a href="http://www.forces.ca/en/job/medicalassistant-180">                
+                    <img src="img/caf_logo.png" alt="CAF" height= 140px>
+                    </a>
+                    <em>Enlisted: September 2015</em>
+                    <p>
+                        I joined the<b> Canadian Armed Forces </b>as a Medical Assistant at 12 Vancouver Field Ambulance. Being a Medical Assistant provided me an opportunity to learn practical skills to someday help another person. In line with my own personal goals, it has pushed me past the point of comfort while helping me learn more about myself.
+                    </p>
+                </li>
+                <li data-date="07/05/2015">
+                    <h2>Bachelor of Computer Science</h2>
+                    <a href="https://www.cs.ubc.ca/students/undergrad/programs/second-degree">
+                    <img src="img/logoUBC.gif" alt="UBC" height= 140px>
+                    </a>
+                    <em>Enrolled: September 2015</em>
+                    <p>	
+                        I decided to pursue a career in technology and enrolled in the <b>Bachelor of Computer Science (BCS) </b> program at UBC. In this, I have found a beautiful intermingling of a passions - a passion to create, solve difficult problems, and to do it all with beauty and simplicity.
+                    </p>
+                </li>
+                <li data-date="09/05/2015">
+                    <h2>Test Analyst</h2>
+                    <a href="https://www.cibc.com">
+                    <img src="img/CIBC_logo.png" alt="CIBC" height= 130px>
+                    </a>
+                    <em>Started: September 2016</em>
+                    <p>	
+                        Incorporated in my BCS program, I started my first co-op work term at CIBC with the Internet & Mobile Project Delivery QA team in Toronto. The day to day focused on User Acceptance Testing (UAT) on various CIBC mobile and web applications using HPALM.
+                    </p>
+                </li>
+                <li data-date="10/05/2015">
+                    <h2>Web Developer</h2>
+                    <a href="https://www.canada.ca/en.html">
+                        <img src="img/canada.jpg" alt="canada" height= 130px>
+                    </a>
+                    <em>Started: September 2017</em>
+                    <p>
+                        My second co-op term was with the Government of Canada. I developed public and internal web applications for clients using ASP.NET in Visual Studios. I wrote SQL scripts for SSMS, implemented and modified both back and frontend code, and wrote technical documentation with UML diagrams for team/client use.
+                </li>
+            </ol>
+        </div> <!-- .events-content -->
+    </section>
+                </div>
+
+    <!-- CONTACT CLASS-->
+                <div id = "contact" class="panel">
+                     <div class = "container-fluid">
+                    <h1>Contact.</h1> 
+                        <div class ="row">
+                            <!-- IMPLEMENT LATER IN TIME WHEN YOU FIGURE OUT PHP WITH SECURITY 
+                            <div class = "col-md-5"> 
+                                <form class="form" method = "post" action="index.php">		
+                                    <p class="name">
+                                        <input type="text" name="name" id="name" placeholder="John Doe" />
+                                        <label for="name">Name</label>
+                                    </p>
+
+                                    <p class="email">
+                                        <input type="text" name="email" id="email" placeholder="mail@example.com" />
+                                        <label for="email">Email</label>
+                                    </p>
+
+                                    <p class="web">
+                                        <input type="text" name="web" id="web" placeholder="Optional" />
+                                        <label for="web">Website</label>
+                                    </p>		
+
+                                    <p class="text">
+                                        <textarea name="text" placeholder="Write something to me" ></textarea>
+                                    </p>
+
+                                      <p class="submit">
+                                          <input type="submit" value="Send" />
+                                    </p>
+                               </form>
+                            </div> --> 
+                            <div class = "col-md-7"> 
+                                <div class = "row">
+                                    <div id = "mail" class = "col-md-1">
+                                        <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                                    </div>
+                                    <div id = "mail-info" class = "col-md-11">nicholas.s.chan@gmail.com
+                                    </div>                                
+                                </div>
+                                <div class = "row">
+                                    <div id = "phone" class = "col-md-1">
+                                        <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>  
+                                    </div>
+                                    <div id = "phone-info"class = "col-md-11">778-892-2332 
+                                    </div>
+                                </div>
+                                <div class = "row">
+                                    <div id = "resume" class = "col-md-1">
+                                        <a href="img/1.jpg"> <!-- PLACEHOLDER FOR UPDATED RESUME-->  
+                                        <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>  
+                                        </a>
+                                    </div>
+                                    <div id = "resume-info"class = "col-md-11">
+                                        <a href="img/Resume_Website.pdf"> <!-- PLACEHOLDER FOR UPDATED RESUME-->
+                                        Resume
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                <div class = "footer">
+                    Nicholas Chan &#169 2017
+                </div>        
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script type="text/javascript">
+    $(function() {
+        $('a').bind('click',function(event){
+            var $anchor = $(this);
+            /*
+            if you want to use one of the easing effects:
+            $('html, body').stop().animate({
+                scrollLeft: $($anchor.attr('href')).offset().left
+            }, 1500,'easeInOutExpo');
+             */
+            $('html, body').stop().animate({
+                scrollLeft: $($anchor.attr('href')).offset().left
+            }, 1000);
+            event.preventDefault();
+        });
+    })
+        </script>
+        <script src="js/jquery.flipshow.js"></script>
+        <script>
+           $( function() {
+               $( '#fc-slideshow' ).flipshow();
+           } );
+        </script>
+    <script src="js/main_2.js"></script> <!-- Resource jQuery -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-48014931-1', 'codyhouse.co');
+        ga('send', 'pageview');
+
+        jQuery(document).ready(function($){
+            $('.close-carbon-adv').on('click', function(event){
+                event.preventDefault();
+                $('#carbonads-container').hide();
+            });
+        });
+    </script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+        </body>
+    </html>
