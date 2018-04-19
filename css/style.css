@@ -137,7 +137,7 @@ a:active {
     width: 100%; 
     text-align: center;
     font-size:18px;
-    color:dimgray;
+    color:black;
 }
 
 .row{
@@ -180,6 +180,10 @@ a:active {
   background-size: cover;
   background-position: center;
 
+}
+
+.modal-body {
+  font-size: 16px;
 }
 
 /* ===========================
@@ -468,7 +472,7 @@ ol, ul {
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #959595;
+  color: black;
     margin-left: 130px;
 }
 
@@ -617,7 +621,7 @@ input:focus, textarea:focus {
 
 #phone{
     font-size:17px;
-    color: dimgray;
+    color: black;
     padding-top: 30px;
     padding-left: 22px;
 }
@@ -625,28 +629,28 @@ input:focus, textarea:focus {
 #phone-info {
     font-size:17px;
     padding-top: 60px;
-    color: dimgray;
+    color: black;
 }
 #mail {
     padding-top: 30px;
     font-size:17px;
-    color: dimgray;  
+    color: black;
 }
 #mail-info {
     padding-top:45px;
     font-size:17px;
-    color: dimgray;
+    color: black;
 }
 
 #resume {
     padding-top: 30px;
     padding-left:22px;
     font-size:17px;
-    color: dimgray;  
+    color: black;
 }
 
 #resume a {
-    color:dimgray;
+    color:black;
 }
 
 #resume a:hover {
@@ -656,11 +660,11 @@ input:focus, textarea:focus {
 #resume-info {
     padding-top:45px;
     font-size:17px;
-    color: dimgray;
+    color: black;
 }
 
 #resume-info a{
-    color:dimgray;
+    color:black;
 }
 
 #resume-info a:hover{
